@@ -21,19 +21,29 @@
 # Registers:
 
 # File marks:
-'0  1  45  ~/c.csv
-'1  69  8  ~/c.csv
-'2  126  11  ~/DoubanAll.py
-'3  95  2  ~/DoubanAll.py
-'4  92  13  ~/DoubanAll.py
-'5  132  13  ~/DoubanAll.py
-'6  1  0  /var/log/auth.log
+'0  172  0  ~/DouBanRe.py
+'1  178  0  ~/DouBanRe.py
+'2  312  58  ~/DouBanRe.py
+'3  8  845  ~/DoubanRe.py
+'4  1  0  ~/DoubanAll.py
+'5  1  0  ~/.ssh/id_rsa.pub
+'6  1  45  ~/c.csv
+'7  69  8  ~/c.csv
+'8  126  11  ~/DoubanAll.py
+'9  95  2  ~/DoubanAll.py
 
 # Jumplist (newest first):
+-'  172  0  ~/DouBanRe.py
+-'  1  0  ~/DouBanRe.py
+-'  178  0  ~/DouBanRe.py
+-'  312  58  ~/DouBanRe.py
+-'  8  845  ~/DoubanRe.py
+-'  1  0  ~/DoubanRe.py
+-'  1  0  ~/DoubanAll.py
+-'  1  0  ~/.ssh/id_rsa.pub
 -'  1  45  ~/c.csv
 -'  69  8  ~/c.csv
 -'  126  11  ~/DoubanAll.py
--'  1  0  ~/DoubanAll.py
 -'  95  2  ~/DoubanAll.py
 -'  92  13  ~/DoubanAll.py
 -'  132  13  ~/DoubanAll.py
@@ -53,62 +63,67 @@
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  45  ~/c.csv
+-'  69  8  ~/c.csv
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  /var/log/auth.log
+-'  1  0  ~/DoubanAll.py
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  45  ~/c.csv
+-'  69  8  ~/c.csv
 -'  126  11  ~/DoubanAll.py
--'  1  0  ~/DoubanAll.py
 -'  95  2  ~/DoubanAll.py
 -'  92  13  ~/DoubanAll.py
 -'  132  13  ~/DoubanAll.py
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  126  11  ~/DoubanAll.py
--'  1  0  ~/DoubanAll.py
--'  95  2  ~/DoubanAll.py
--'  92  13  ~/DoubanAll.py
--'  132  13  ~/DoubanAll.py
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  126  11  ~/DoubanAll.py
--'  1  0  ~/DoubanAll.py
--'  95  2  ~/DoubanAll.py
--'  92  13  ~/DoubanAll.py
--'  132  13  ~/DoubanAll.py
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
@@ -119,19 +134,37 @@
 
 # History of marks within files (newest to oldest):
 
-> ~/c.csv
-	"	1	45
-	^	1	46
-	.	1	0
-	+	1	0
+> ~/DouBanRe.py
+	"	172	0
+	^	172	0
+	.	172	0
+	+	312	59
+	+	177	14
+	+	172	0
+
+> ~/DoubanRe.py
+	"	8	845
+	^	8	846
+	.	8	846
+	+	8	1004
+	+	8	846
 
 > ~/DoubanAll.py
-	"	126	11
+	"	1	0
 	^	126	12
 	.	126	11
 	+	133	0
 	+	92	14
 	+	126	11
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
+
+> ~/c.csv
+	"	1	45
+	^	1	46
+	.	1	0
+	+	1	0
 
 > /var/log/auth.log
 	"	1	0
