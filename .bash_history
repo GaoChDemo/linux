@@ -262,3 +262,30 @@ python Dou.py
 vim Dou.py
 python Dou.py
 vim Dou.py
+git add.
+git add .
+git commit
+git commit -m '1.2'
+git status
+git push
+git global user.name "xxx"config -
+git config --global use
+git push
+python Dou.py
+vim /etc/default/locale 
+vim Dou.py
+python Dou.py
+ls -l
+ls -l -r
+vim rrr.csv
+python Dou.py
+ls -l -r
+python Dou.py
+ls -l -r
+vim Dou.py
+python Dou.py
+ls
+vim Dou.py
+python Dou.py
+ls
+python Dou.py
