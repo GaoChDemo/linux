@@ -2,15 +2,19 @@
 # You may edit it if you're careful!
 
 # Value of 'encoding' when this file was written
-*encoding=utf-8
+*encoding=latin1
 
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :q
 
 # Search String History (newest to oldest):
+? @$
 
 # Expression History (newest to oldest):
 
@@ -19,22 +23,59 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+"q	CHAR	0
+	eew
+""-	CHAR	0
+	"
 
 # File marks:
-'0  172  0  ~/DouBanRe.py
-'1  178  0  ~/DouBanRe.py
-'2  312  58  ~/DouBanRe.py
-'3  8  845  ~/DoubanRe.py
-'4  1  0  ~/DoubanAll.py
-'5  1  0  ~/.ssh/id_rsa.pub
-'6  1  45  ~/c.csv
-'7  69  8  ~/c.csv
-'8  126  11  ~/DoubanAll.py
-'9  95  2  ~/DoubanAll.py
+'0  101  65  ~/Dou.py
+'1  100  0  ~/Dou.py
+'2  75  42  ~/Dou.py
+'3  97  43  ~/Dou.py
+'4  195  0  ~/Dou.py
+'5  389  0  ~/Dou.py
+'6  469  0  ~/Dou.py
+'7  583  0  ~/Dou.py
+'8  1  0  ~/Dou.py
+'9  776  0  ~/Dou.py
 
 # Jumplist (newest first):
--'  172  0  ~/DouBanRe.py
+-'  101  65  ~/Dou.py
+-'  1  0  ~/Dou.py
+-'  100  0  ~/Dou.py
+-'  75  42  ~/Dou.py
+-'  97  43  ~/Dou.py
+-'  195  0  ~/Dou.py
+-'  389  0  ~/Dou.py
+-'  469  0  ~/Dou.py
+-'  583  0  ~/Dou.py
+-'  776  0  ~/Dou.py
+-'  883  0  ~/Dou.py
+-'  905  11  ~/Dou.py
+-'  969  0  ~/Dou.py
+-'  1032  0  ~/Dou.py
+-'  1163  0  ~/Dou.py
+-'  1262  0  ~/Dou.py
+-'  1  0  ~/rrr.csv
+-'  1257  10  ~/Dou.py
+-'  1  0  /etc/default/locale
+-'  2  11  /etc/default/locale
+-'  1335  11  ~/Dou.py
+-'  1283  1  ~/Dou.py
+-'  1354  0  ~/Dou.py
+-'  1380  85  ~/Dou.py
+-'  1390  78  ~/Dou.py
+-'  1425  12  ~/Dou.py
+-'  1419  78  ~/Dou.py
+-'  1615  0  ~/Dou.py
+-'  54  0  /etc/mysql/mysql.conf.d/mysqld.cnf
+-'  104  0  /etc/mysql/mysql.conf.d/mysqld.cnf
+-'  43  0  /etc/mysql/mysql.conf.d/mysqld.cnf
+-'  1  0  /etc/mysql/musql.cnf
+-'  90  0  ~/DouBanRe.py
 -'  1  0  ~/DouBanRe.py
+-'  172  0  ~/DouBanRe.py
 -'  178  0  ~/DouBanRe.py
 -'  312  58  ~/DouBanRe.py
 -'  8  845  ~/DoubanRe.py
@@ -98,49 +139,72 @@
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  45  ~/c.csv
--'  69  8  ~/c.csv
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  ~/DoubanAll.py
--'  1  0  ~/.ssh/id_rsa.pub
--'  1  45  ~/c.csv
--'  69  8  ~/c.csv
--'  126  11  ~/DoubanAll.py
--'  95  2  ~/DoubanAll.py
--'  92  13  ~/DoubanAll.py
--'  132  13  ~/DoubanAll.py
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
 
 # History of marks within files (newest to oldest):
 
+> ~/Dou.py
+	"	101	65
+	^	101	66
+	.	101	44
+	+	1615	0
+	+	1419	0
+	+	1426	0
+	+	1390	0
+	+	1380	86
+	+	1353	17
+	+	1284	18
+	+	1284	2
+	+	1283	2
+	+	1236	27
+	+	1239	45
+	+	1258	22
+	+	1261	43
+	+	1257	11
+	+	1162	17
+	+	968	17
+	+	907	4
+	+	905	11
+	+	775	17
+	+	582	17
+	+	388	17
+	+	194	17
+	+	75	44
+	+	97	44
+	+	75	43
+	+	80	44
+	+	101	44
+
+> ~/rrr.csv
+	"	1	0
+
+> /etc/default/locale
+	"	1	0
+	^	2	12
+	.	2	11
+	+	2	11
+
+> /etc/mysql/mysql.conf.d/mysqld.cnf
+	"	54	0
+	^	43	1
+	.	43	0
+	+	43	0
+
+> /etc/mysql/musql.cnf
+	"	1	0
+	^	1	0
+
 > ~/DouBanRe.py
-	"	172	0
-	^	172	0
-	.	172	0
+	"	90	0
+	^	90	1
+	.	171	11
 	+	312	59
 	+	177	14
 	+	172	0
+	+	171	11
+	+	175	14
+	+	141	14
+	+	135	13
+	+	171	11
 
 > ~/DoubanRe.py
 	"	8	845
