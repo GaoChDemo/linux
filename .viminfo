@@ -29,25 +29,25 @@ $
 	"
 
 # File marks:
-'0  84  0  ~/Dou.py
-'1  101  65  ~/Dou.py
-'2  100  0  ~/Dou.py
-'3  75  42  ~/Dou.py
-'4  97  43  ~/Dou.py
-'5  195  0  ~/Dou.py
+'0  84  77  ~/Dou.py
+'1  195  0  ~/Dou.py
+'2  101  65  ~/Dou.py
+'3  100  0  ~/Dou.py
+'4  75  42  ~/Dou.py
+'5  97  43  ~/Dou.py
 '6  389  0  ~/Dou.py
 '7  469  0  ~/Dou.py
 '8  583  0  ~/Dou.py
 '9  1  0  ~/Dou.py
 
 # Jumplist (newest first):
--'  84  0  ~/Dou.py
+-'  84  77  ~/Dou.py
 -'  1  0  ~/Dou.py
+-'  195  0  ~/Dou.py
 -'  101  65  ~/Dou.py
 -'  100  0  ~/Dou.py
 -'  75  42  ~/Dou.py
 -'  97  43  ~/Dou.py
--'  195  0  ~/Dou.py
 -'  389  0  ~/Dou.py
 -'  469  0  ~/Dou.py
 -'  583  0  ~/Dou.py
@@ -138,14 +138,13 @@ $
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
 
 # History of marks within files (newest to oldest):
 
 > ~/Dou.py
-	"	84	0
-	^	101	66
-	.	101	44
+	"	84	77
+	^	84	78
+	.	84	77
 	+	1615	0
 	+	1419	0
 	+	1426	0
@@ -173,6 +172,13 @@ $
 	+	75	43
 	+	80	44
 	+	101	44
+	+	117	16
+	+	121	16
+	+	84	78
+	+	85	21
+	+	121	23
+	+	117	23
+	+	84	77
 
 > ~/rrr.csv
 	"	1	0

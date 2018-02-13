@@ -82,7 +82,7 @@ class Douban:
 
 	def get_movie(self):
 		url_start = 'https://movie.douban.com/j/new_search_subjects?sort=T&range=0,5&tags=&start=%d'
-		for i in range(0,200,20):
+		for i in range(200,600,20):
 			url = url_start % i
 			self.get_headers()
 			urllist = self.downloader_movie_list(url,i)['data']
@@ -114,11 +114,11 @@ class Douban:
 		#dataframe.to_csv("test.csv",sep=',')
 	def writefile(self):
 		df = pd.DataFrame(self.data,columns=['movie','user','rating','time','text'])
-		df.to_csv('rrr.csv', sep=',', header=False, index=False,encoding='utf-8',mode='a')
+		df.to_csv('rrrl200-600.csv', sep=',', header=False, index=False,encoding='utf-8',mode='a')
 		self.data = []
 	def start(self):
 		df = pd.DataFrame(columns=['movie','user','rating','time','text'])
-		df.to_csv('rrr.csv', sep=',', header=True, index=False,encoding='utf-8',mode='w')
+		df.to_csv('rrrl200-600.csv', sep=',', header=True, index=False,encoding='utf-8',mode='w')
 		self.get_headers()
 		self.get_movie()
 		while(len(self.url_list) > 0):
