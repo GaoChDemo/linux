@@ -29,47 +29,52 @@ $
 	"
 
 # File marks:
-'0  84  77  ~/Dou.py
-'1  195  0  ~/Dou.py
-'2  101  65  ~/Dou.py
-'3  100  0  ~/Dou.py
-'4  75  42  ~/Dou.py
-'5  97  43  ~/Dou.py
-'6  389  0  ~/Dou.py
-'7  469  0  ~/Dou.py
-'8  583  0  ~/Dou.py
-'9  1  0  ~/Dou.py
+'0  151  0  ~/Dou.py
+'1  140  31  ~/Dou.py
+'2  7  7  ~/Dou.py
+'3  153  0  ~/Dou.py
+'4  121  16  ~/Dou.py
+'5  84  77  ~/Dou.py
+'6  194  0  ~/Dou.py
+'7  101  65  ~/Dou.py
+'8  100  0  ~/Dou.py
+'9  75  42  ~/Dou.py
 
 # Jumplist (newest first):
--'  84  77  ~/Dou.py
+-'  151  0  ~/Dou.py
 -'  1  0  ~/Dou.py
--'  195  0  ~/Dou.py
+-'  140  31  ~/Dou.py
+-'  7  7  ~/Dou.py
+-'  153  0  ~/Dou.py
+-'  121  16  ~/Dou.py
+-'  84  77  ~/Dou.py
+-'  194  0  ~/Dou.py
 -'  101  65  ~/Dou.py
 -'  100  0  ~/Dou.py
 -'  75  42  ~/Dou.py
 -'  97  43  ~/Dou.py
--'  389  0  ~/Dou.py
--'  469  0  ~/Dou.py
--'  583  0  ~/Dou.py
--'  776  0  ~/Dou.py
--'  883  0  ~/Dou.py
--'  905  11  ~/Dou.py
--'  969  0  ~/Dou.py
--'  1032  0  ~/Dou.py
--'  1163  0  ~/Dou.py
--'  1262  0  ~/Dou.py
+-'  388  0  ~/Dou.py
+-'  468  0  ~/Dou.py
+-'  582  0  ~/Dou.py
+-'  775  0  ~/Dou.py
+-'  882  0  ~/Dou.py
+-'  904  11  ~/Dou.py
+-'  968  0  ~/Dou.py
+-'  1031  0  ~/Dou.py
+-'  1162  0  ~/Dou.py
+-'  1261  0  ~/Dou.py
 -'  1  0  ~/rrr.csv
--'  1257  10  ~/Dou.py
+-'  1256  10  ~/Dou.py
 -'  1  0  /etc/default/locale
 -'  2  11  /etc/default/locale
--'  1335  11  ~/Dou.py
--'  1283  1  ~/Dou.py
--'  1354  0  ~/Dou.py
--'  1380  85  ~/Dou.py
--'  1390  78  ~/Dou.py
--'  1425  12  ~/Dou.py
--'  1419  78  ~/Dou.py
--'  1615  0  ~/Dou.py
+-'  1334  11  ~/Dou.py
+-'  1282  1  ~/Dou.py
+-'  1353  0  ~/Dou.py
+-'  1379  85  ~/Dou.py
+-'  1389  78  ~/Dou.py
+-'  1424  12  ~/Dou.py
+-'  1418  78  ~/Dou.py
+-'  1614  0  ~/Dou.py
 -'  54  0  /etc/mysql/mysql.conf.d/mysqld.cnf
 -'  104  0  /etc/mysql/mysql.conf.d/mysqld.cnf
 -'  43  0  /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -134,39 +139,35 @@ $
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
 
 # History of marks within files (newest to oldest):
 
 > ~/Dou.py
-	"	84	77
-	^	84	78
-	.	84	77
-	+	1615	0
-	+	1419	0
-	+	1426	0
-	+	1390	0
-	+	1380	86
-	+	1353	17
-	+	1284	18
-	+	1284	2
+	"	151	0
+	^	140	32
+	.	141	0
+	+	1614	0
+	+	1418	0
+	+	1425	0
+	+	1389	0
+	+	1379	86
+	+	1352	17
+	+	1283	18
 	+	1283	2
-	+	1236	27
-	+	1239	45
-	+	1258	22
-	+	1261	43
-	+	1257	11
-	+	1162	17
-	+	968	17
-	+	907	4
-	+	905	11
-	+	775	17
-	+	582	17
-	+	388	17
-	+	194	17
+	+	1282	2
+	+	1235	27
+	+	1238	45
+	+	1257	22
+	+	1260	43
+	+	1256	11
+	+	1161	17
+	+	967	17
+	+	906	4
+	+	904	11
+	+	774	17
+	+	581	17
+	+	387	17
+	+	193	17
 	+	75	44
 	+	97	44
 	+	75	43
@@ -178,7 +179,21 @@ $
 	+	85	21
 	+	121	23
 	+	117	23
-	+	84	77
+	+	84	78
+	+	108	97
+	+	117	16
+	+	121	16
+	+	85	17
+	+	134	15
+	+	134	8
+	+	135	5
+	+	141	0
+
+> ~/Douall.py
+	"	131	0
+	^	131	0
+	.	130	0
+	+	130	0
 
 > ~/rrr.csv
 	"	1	0

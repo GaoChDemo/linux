@@ -289,3 +289,17 @@ vim Dou.py
 python Dou.py
 ls
 python Dou.py
+ls
+vim Dou.py
+ls
+vim Dou.py
+ls
+rm Dou.py
+vim Dou.py
+ls
+rm Dou.py
+ls
+vim Dou.py
+rm Dou.py
+ls
+vim Douall.py 
