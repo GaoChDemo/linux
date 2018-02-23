@@ -303,3 +303,5 @@ vim Dou.py
 rm Dou.py
 ls
 vim Douall.py 
+ls
+ls -r -l

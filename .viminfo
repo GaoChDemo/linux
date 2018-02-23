@@ -26,21 +26,25 @@ $
 "q	CHAR	0
 	eew
 ""-	CHAR	0
-	"
+	 
 
 # File marks:
-'0  151  0  ~/Dou.py
-'1  140  31  ~/Dou.py
-'2  7  7  ~/Dou.py
-'3  153  0  ~/Dou.py
-'4  121  16  ~/Dou.py
-'5  84  77  ~/Dou.py
-'6  194  0  ~/Dou.py
-'7  101  65  ~/Dou.py
-'8  100  0  ~/Dou.py
-'9  75  42  ~/Dou.py
+'0  78  53  ~/Douall.py
+'1  96  25  ~/Douall.py
+'2  131  0  ~/Douall.py
+'3  151  0  ~/Dou.py
+'4  140  31  ~/Dou.py
+'5  7  7  ~/Dou.py
+'6  153  0  ~/Dou.py
+'7  121  16  ~/Dou.py
+'8  84  77  ~/Dou.py
+'9  194  0  ~/Dou.py
 
 # Jumplist (newest first):
+-'  78  53  ~/Douall.py
+-'  1  0  ~/Douall.py
+-'  96  25  ~/Douall.py
+-'  131  0  ~/Douall.py
 -'  151  0  ~/Dou.py
 -'  1  0  ~/Dou.py
 -'  140  31  ~/Dou.py
@@ -135,12 +139,20 @@ $
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
 -'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
--'  1  0  /var/log/auth.log
 
 # History of marks within files (newest to oldest):
+
+> ~/Douall.py
+	"	78	53
+	^	78	54
+	.	78	53
+	+	130	0
+	+	64	22
+	+	96	24
+	+	100	25
+	+	96	25
+	+	78	46
+	+	78	53
 
 > ~/Dou.py
 	"	151	0
@@ -188,12 +200,6 @@ $
 	+	134	8
 	+	135	5
 	+	141	0
-
-> ~/Douall.py
-	"	131	0
-	^	131	0
-	.	130	0
-	+	130	0
 
 > ~/rrr.csv
 	"	1	0
