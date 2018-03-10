@@ -13,6 +13,7 @@ data = pd.read_csv('rrr1200.csv')
 
 wordflag = ['a','v','i','b']
 keys = set()
+keya = set()
 iii = -1
 
 for text in data['text']:
@@ -23,21 +24,23 @@ for text in data['text']:
         print text,"iii",iii
     for a in li:
         if a not in keys:
-            keys.add(a)
-    try:
+            keya.add(a)
+
+    '''try:
         li = [(x.word,x.flag) for x in psg.cut(text.strip().decode('utf-8'))]
     except Exception as e:
         print e
         print text,"iii",iii
     for a,b in li:
         if (b in wordflag) and (a not in keys):
-            keys.add(a)
+            keys.add(a)'''
     iii += 1
     if iii%100 == 0:
         print iii
 
-fw = open('keword_linux.txt','w')
-for k in keys:
+#key = keys | keya
+fw = open('keworda_linux.txt','w')
+for k in keya:
     try:
         st = k+"\n"
         fw.write(st.encode('utf-8'))
