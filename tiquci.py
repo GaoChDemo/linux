@@ -12,10 +12,10 @@ tfidf = analyse.extract_tags
 data = pd.read_csv('rrr1200.csv')
 
 wordflag = ['a','v','i','b']
-keys = {}
+keys = set()
 iii = -1
 
-for text in data['text']:
+for text in data['text'][:10]:
     try:
         li = tfidf(text)
     except Exception as e:
@@ -23,7 +23,7 @@ for text in data['text']:
         print text,"iii",iii
     for a in li:
         if a not in keys:
-            keys.append(a)
+            keys.add(a)
     try:
         li = [(x.word,x.flag) for x in psg.cut(text.strip().decode('utf-8'))]
     except Exception as e:
@@ -31,8 +31,10 @@ for text in data['text']:
         print text,"iii",iii
     for a,b in li:
         if (b in wordflag) and (a not in keys):
-            keys.append(a)
+            keys.add(a)
     iii += 1
+    if iii%100 == 0:
+        print iii
 
 fw = open('keword_linux.txt','w')
 for k in keys:
