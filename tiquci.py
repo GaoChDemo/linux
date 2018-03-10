@@ -15,7 +15,7 @@ wordflag = ['a','v','i','b']
 keys = set()
 iii = -1
 
-for text in data['text'][:10]:
+for text in data['text']:
     try:
         li = tfidf(text)
     except Exception as e:
@@ -38,6 +38,10 @@ for text in data['text'][:10]:
 
 fw = open('keword_linux.txt','w')
 for k in keys:
-    st = k+"\n"
-    fw.write(st.encode('utf-8'))
+    try:
+        st = k+"\n"
+        fw.write(st.encode('utf-8'))
+    except Exception as e:
+        print e
+        print k
 fw.close()
