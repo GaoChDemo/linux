@@ -17,30 +17,30 @@ keya = set()
 iii = -1
 
 for text in data['text']:
-    try:
+    '''try:
         li = tfidf(text)
     except Exception as e:
         print e
         print text,"iii",iii
     for a in li:
         if a not in keys:
-            keya.add(a)
+            keya.add(a)'''
 
-    '''try:
+    try:
         li = [(x.word,x.flag) for x in psg.cut(text.strip().decode('utf-8'))]
     except Exception as e:
         print e
         print text,"iii",iii
     for a,b in li:
         if (b in wordflag) and (a not in keys):
-            keys.add(a)'''
+            keys.add(a)
     iii += 1
     if iii%100 == 0:
         print iii
 
 #key = keys | keya
-fw = open('keworda_linux.txt','w')
-for k in keya:
+fw = open('kewords_linux.txt','w')
+for k in keys:
     try:
         st = k+"\n"
         fw.write(st.encode('utf-8'))
