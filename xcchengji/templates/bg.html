@@ -1,0 +1,36 @@
+$def with (li)
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> 成绩显示 </title>
+<meta name="keywords" content="拖拽特效,表格拖拽,自由排序,表格排序,列排序,JS特效"/>
+<link href="/static/css/columnDrag.css" rel="stylesheet" type="text/css"/>
+</head>
+<body class="keBody">
+<h1 class="keTitle">成绩显示</h1>
+<div class="kePublic">
+<!--效果html开始-->
+<div id="chenkbox">
+<table id="tableSort">
+    <tr>
+          <th onclick="sortTable('tableSort',0)" title="点击排序"> 课程序列 </th>
+          <th onclick="sortTable('tableSort',1)" title="点击排序"> 课程名称 </th>
+          <th onclick="sortTable('tableSort',2)" title="点击排序"> 课程学分 </th>
+          <th onclick="sortTable('tableSort',3)" title="点击排序"> 课程属性 </th>
+          <th onclick="sortTable('tableSort',4)" title="点击排序"> 课程成绩 </th>
+        </tr>
+        $for l in li:
+          <tr>
+            $for n in l:
+              <td>$n</td>
+        </tr>
+  </table>
+  <div id="box"></div>
+</div>
+<script src="/static/js/columnDrag.js"></script>
+<!--效果html结束-->
+</div>
+</body>
+</html>
